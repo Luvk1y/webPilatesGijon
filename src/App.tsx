@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logoImg from "./assets/PilatesGijonLOGO.png";
 import Button from "./components/Button";
 import Container from "./components/Container";
 import SectionTitle from "./components/SectionTitle";
@@ -29,10 +30,10 @@ function Nav() {
         <div className="flex h-16 items-center justify-between">
           <a
             href="#inicio"
-            className="text-sm font-bold tracking-wide"
+            className="block transition hover:opacity-80"
             onClick={closeMenu}
           >
-            {BUSINESS.name}
+            <img src={logoImg} alt={BUSINESS.name} className="h-10 w-auto" />
           </a>
 
           {/* Navegación Desktop */}
