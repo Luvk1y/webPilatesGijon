@@ -5,7 +5,7 @@ import Container from "./components/Container";
 import SectionTitle from "./components/SectionTitle";
 
 const BUSINESS = {
-  name: "Negocio Julio",
+  name: "Pilates Gijón",
   address: "Calle Ezcurdia 186 9E",
   whatsapp: "649995644",
   email: "rafaelkaneto@gmail.com",
@@ -33,7 +33,11 @@ function Nav() {
             className="block transition hover:opacity-80"
             onClick={closeMenu}
           >
-            <img src={logoImg} alt={BUSINESS.name} className="h-10 w-auto" />
+            <img
+              src={logoImg}
+              alt={BUSINESS.name}
+              className="h-20 w-auto mt-1"
+            />
           </a>
 
           {/* Navegación Desktop */}
