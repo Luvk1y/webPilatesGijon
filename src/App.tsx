@@ -304,7 +304,7 @@ function Location() {
         <SectionTitle
           eyebrow="UBICACIÓN"
           title="Dónde estamos"
-          subtitle="Mapa integrado para que la gente llegue directo."
+          // subtitle="Mapa integrado para que la gente llegue directo."
         />
 
         <div className="grid gap-6 lg:grid-cols-2">
@@ -324,11 +324,6 @@ function Location() {
                 Email
               </Button>
             </div>
-
-            <p className="mt-6 text-xs text-zinc-400">
-              Si quieres que el mapa sea ultra preciso, añade ciudad/provincia a
-              la dirección.
-            </p>
           </div>
 
           <div className="overflow-hidden rounded-2xl border border-zinc-800/70 bg-zinc-950/60">
@@ -354,9 +349,9 @@ function Contact() {
     >
       <Container>
         <SectionTitle
-          eyebrow="CONTACTO"
-          title="Hablemos"
-          subtitle="Contacto directo. Si luego quieres formulario (Formspree/EmailJS), se añade rápido."
+          eyebrow=""
+          title="CONTACTANOS"
+          subtitle="Contacto directo con uno de nuestros instructores."
         />
 
         <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
@@ -428,7 +423,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        <Services />
+        {/* <Services /> */}
         <Location />
         <Contact />
       </main>
