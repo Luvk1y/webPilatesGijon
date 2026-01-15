@@ -166,15 +166,15 @@ function Hero() {
       <Container>
         <div className="relative py-16 sm:py-20 lg:py-24">
           <p className="inline-flex items-center rounded-full border border-zinc-800 bg-zinc-950 px-4 py-2 text-xs font-semibold text-zinc-200/90">
-            Contacto directo por WhatsApp y email
+            Nos preocupamos por tu bienestar
           </p>
           <h1 className="mt-6 text-4xl font-semibold tracking-tight sm:text-5xl">
             {BUSINESS.name}
           </h1>
-          <p className="mt-4 max-w-2xl text-base text-zinc-200/80 sm:text-lg">
+          {/* <p className="mt-4 max-w-2xl text-base text-zinc-200/80 sm:text-lg">
             Web estática lista para presentar tu negocio: quién eres, qué
             ofreces, cómo contactarte y dónde estás. Sin complicaciones.
-          </p>
+          </p> */}
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Button
@@ -192,7 +192,7 @@ function Hero() {
             </Button>
           </div>
 
-          <div className="mt-10 grid gap-4 sm:grid-cols-3">
+          {/* <div className="mt-10 grid gap-4 sm:grid-cols-3">
             <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-5">
               <p className="text-sm font-semibold">Respuesta rápida</p>
               <p className="mt-2 text-sm text-zinc-200/80">
@@ -211,7 +211,7 @@ function Hero() {
                 Google Maps embebido para llegar sin perderte.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </section>
@@ -226,28 +226,30 @@ function About() {
     >
       <Container>
         <SectionTitle
-          eyebrow="SOBRE"
-          title="Una presentación que convierte"
-          subtitle="Aquí pones tu historia y propuesta de valor. Está maquetado para que solo metas contenido real."
+          eyebrow="SOBRE NOSOTROS"
+          title=""
+          subtitle="Entrenamientos personalizados de Pilates en Gijón para mejorar tu bienestar físico y mental."
         />
 
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
-            <p className="text-sm font-semibold">Confianza</p>
+            <p className="text-sm font-semibold">Experiencia</p>
             <p className="mt-2 text-sm text-zinc-200/80">
-              Explica tu experiencia y qué resultados aportas.
+              Gracias a nuestro personal cualificado contaras con el mejor
+              servicio posible.
             </p>
           </div>
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
-            <p className="text-sm font-semibold">Calidad</p>
+            <p className="text-sm font-semibold">Maquinaria preparada</p>
             <p className="mt-2 text-sm text-zinc-200/80">
-              Define tu estándar y cómo trabajas.
+              Contamos con equipos modernos y bien mantenidos para garantizar la
+              mejor experiencia de entrenamiento.
             </p>
           </div>
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
             <p className="text-sm font-semibold">Cercanía</p>
             <p className="mt-2 text-sm text-zinc-200/80">
-              Contacto directo y localización visible.
+              Nuestros instructores están siempre disponibles para ti.
             </p>
           </div>
         </div>
