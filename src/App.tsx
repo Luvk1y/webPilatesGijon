@@ -38,7 +38,7 @@ function Nav() {
             <img
               src={logoImg}
               alt={BUSINESS.name}
-              className="h-20 w-auto mt-1"
+              className="h-28 w-auto mt-1"
             />
           </a>
 
