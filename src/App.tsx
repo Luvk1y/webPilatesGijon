@@ -8,14 +8,14 @@ import SectionTitle from "./components/SectionTitle";
 
 const BUSINESS = {
   name: "Pilates Gijón",
-  address: "Calle Ezcurdia 186 9E",
+  address: "Calle Ezcurdia 139 bajo, Gijón, Asturias",
   whatsapp: "605899206",
-  email: "rafaelkaneto@gmail.com",
+  email: "alvaroquiroga@gmail.com",
   whatsappUrl:
     "https://wa.me/34605899206?text=Hola,%20vengo%20desde%20la%20web%20y%20quiero%20información.",
-  emailUrl: "mailto:rafaelkaneto@gmail.com",
+  emailUrl: "mailto:alvaroquiroga@gmail.com",
   mapsEmbedUrl:
-    "https://www.google.com/maps?q=Calle%20Ezcurdia%20186%209E&output=embed",
+    "https://www.google.com/maps?q=Calle%20Ezcurdia%20139%20bajo%2C%20Gij%C3%B3n%2C%20Asturias&output=embed",
 };
 
 function Nav() {
