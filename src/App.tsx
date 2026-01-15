@@ -9,10 +9,10 @@ import SectionTitle from "./components/SectionTitle";
 const BUSINESS = {
   name: "Pilates Gijón",
   address: "Calle Ezcurdia 186 9E",
-  whatsapp: "649995644",
+  whatsapp: "605899206",
   email: "rafaelkaneto@gmail.com",
   whatsappUrl:
-    "https://wa.me/34649995644?text=Hola%20Julio,%20vengo%20desde%20la%20web%20y%20quiero%20información.",
+    "https://wa.me/34605899206?text=Hola,%20vengo%20desde%20la%20web%20y%20quiero%20información.",
   emailUrl: "mailto:rafaelkaneto@gmail.com",
   mapsEmbedUrl:
     "https://www.google.com/maps?q=Calle%20Ezcurdia%20186%209E&output=embed",
