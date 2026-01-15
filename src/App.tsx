@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logoImg from "./assets/PilatesGijonLOGO.png";
 import aboutImg from "./assets/pilates-reformer-people.jpg";
+import heroBg from "./assets/pilates-reformer.jpg";
 import Button from "./components/Button";
 import Container from "./components/Container";
 import SectionTitle from "./components/SectionTitle";
@@ -153,7 +154,7 @@ function Hero() {
       {/* Placeholder para imagen de fondo vivida */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="../src/assets/pilates-reformer.jpg"
+          src={heroBg}
           alt="Fondo corporativo"
           className="h-full w-full object-cover opacity-20"
         />
