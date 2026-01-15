@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logoImg from "./assets/PilatesGijonLOGO.png";
+import aboutImg from "./assets/pilates-reformer-people.jpg";
 import Button from "./components/Button";
 import Container from "./components/Container";
 import SectionTitle from "./components/SectionTitle";
@@ -152,7 +153,7 @@ function Hero() {
       {/* Placeholder para imagen de fondo vivida */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="https://images.unsplash.com/photo-1599058917212-d750089bc07c?auto=format&fit=crop&q=80&w=1920"
+          src="../src/assets/pilates-reformer.jpg"
           alt="Fondo corporativo"
           className="h-full w-full object-cover opacity-20"
         />
@@ -225,11 +226,22 @@ function About() {
       className="bg-zinc-900/50 border-t border-zinc-800/60 py-16 sm:py-20"
     >
       <Container>
-        <SectionTitle
-          eyebrow="SOBRE NOSOTROS"
-          title=""
-          subtitle="Entrenamientos personalizados de Pilates en Gijón para mejorar tu bienestar físico y mental."
-        />
+        <div className="grid gap-12 lg:grid-cols-2 lg:items-center mb-12">
+          <div>
+            <SectionTitle
+              eyebrow="SOBRE NOSOTROS"
+              title="Tu bienestar es nuestra prioridad"
+              subtitle="Entrenamientos personalizados de Pilates en Gijón para mejorar tu bienestar físico y mental."
+            />
+          </div>
+          <div className="relative overflow-hidden rounded-2xl border border-zinc-800/70 bg-zinc-950/60 shadow-lg">
+            <img
+              src={aboutImg}
+              alt="Clase de pilates reformer"
+              className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition duration-700"
+            />
+          </div>
+        </div>
 
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
