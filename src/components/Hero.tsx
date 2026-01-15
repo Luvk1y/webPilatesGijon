@@ -11,7 +11,7 @@ export default function Hero() {
         <img
           src={heroBg}
           alt="Fondo corporativo"
-          className="h-full w-full object-cover opacity-20"
+          className="h-full w-full object-cover opacity-95"
         />
         {/* Gradiente para suavizar la transición al negro */}
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/50 via-zinc-950/80 to-zinc-950" />
