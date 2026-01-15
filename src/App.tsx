@@ -152,7 +152,7 @@ function Hero() {
       {/* Placeholder para imagen de fondo vivida */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1920"
+          src="https://images.unsplash.com/photo-1599058917212-d750089bc07c?auto=format&fit=crop&q=80&w=1920"
           alt="Fondo corporativo"
           className="h-full w-full object-cover opacity-20"
         />
