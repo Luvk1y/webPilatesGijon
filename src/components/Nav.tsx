@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoImg from "../assets/PilatesGijonLOGO.png";
+import logoImg from "../assets/PilatesGijonLOGO2.png";
 import { BUSINESS } from "../constants";
 import Button from "./Button";
 import Container from "./Container";
