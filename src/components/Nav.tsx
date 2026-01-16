@@ -24,7 +24,7 @@ export default function Nav() {
             <img
               src={logoImg}
               alt={BUSINESS.name}
-              className="h-36 w-auto mt-2"
+              className="h-36 w-auto mt-4"
             />
           </a>
 
