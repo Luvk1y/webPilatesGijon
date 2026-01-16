@@ -18,7 +18,7 @@ export default function Location() {
 
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
-            <p className="text-sm font-semibold">Dirección</p>
+            <h3 className="text-sm font-semibold">Dirección</h3>
             <p className="mt-2 text-sm text-zinc-200/80">{BUSINESS.address}</p>
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">

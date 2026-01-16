@@ -28,21 +28,21 @@ export default function About() {
 
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
-            <p className="text-sm font-semibold">Experiencia</p>
+            <h3 className="text-sm font-semibold">Experiencia</h3>
             <p className="mt-2 text-sm text-zinc-200/80">
               Gracias a nuestro personal cualificado contaras con el mejor
               servicio posible.
             </p>
           </div>
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
-            <p className="text-sm font-semibold">Maquinaria preparada</p>
+            <h3 className="text-sm font-semibold">Maquinaria preparada</h3>
             <p className="mt-2 text-sm text-zinc-200/80">
               Contamos con equipos modernos y bien mantenidos para garantizar la
               mejor experiencia de entrenamiento.
             </p>
           </div>
           <div className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6">
-            <p className="text-sm font-semibold">Cercanía</p>
+            <h3 className="text-sm font-semibold">Cercanía</h3>
             <p className="mt-2 text-sm text-zinc-200/80">
               Nuestros instructores están siempre disponibles para ti.
             </p>

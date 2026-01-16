@@ -27,7 +27,7 @@ export default function Services() {
               key={s}
               className="rounded-2xl border border-zinc-800/70 bg-zinc-950/60 p-6"
             >
-              <p className="text-sm font-semibold">{s}</p>
+              <h3 className="text-sm font-semibold">{s}</h3>
               <p className="mt-2 text-sm text-zinc-200/80">
                 Descripción breve del servicio. Beneficio claro. Sin humo.
               </p>
